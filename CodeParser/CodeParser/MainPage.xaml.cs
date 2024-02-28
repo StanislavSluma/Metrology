@@ -1,24 +1,30 @@
-﻿namespace CodeParser
+﻿using CodeParser.Pages;
+
+namespace CodeParser
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        private List<string> metricTypes;
+        private Dictionary<int, string> metricNames = new() { {1,nameof(HolstedMetrics)},{2,nameof(JilbMetrics)},{3,nameof(ChepinMetrics)} };
 
+        public List<string> MetricType { get; set; }
         public MainPage()
         {
             InitializeComponent();
+            MetricType = new(){ "Размер программы", "Сложность потока управления программ", "Сложность потока данных" };
+            BindingContext = MetricType;
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private async void Button_Clicked(object sender, EventArgs e)
         {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            if (editor.Text != string.Empty && metrics_picker.SelectedIndex != -1)
+            {
+                IDictionary<string, object> parametrs = new Dictionary<string, object>()
+            {
+                {"Text", editor.Text}
+            };
+                await Shell.Current.GoToAsync(metricNames[metrics_picker.SelectedIndex + 1], parametrs);
+            }
         }
     }
 
