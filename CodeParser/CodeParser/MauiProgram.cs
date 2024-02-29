@@ -13,6 +13,7 @@ namespace CodeParser
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("consolas.ttf", "consolas");
                 });
 
 #if DEBUG
