@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:holsted="clr-namespace:CodeParser.Holsted"
              xmlns:dg="clr-namespace:Maui.DataGrid;assembly=Maui.DataGrid"
+             xmlns:local="clr-namespace:CodeParser.Pages"
              x:Class="CodeParser.Pages.HolstedMetrics"
-             Title="Holsted Metrics">
-
-    <ContentPage.BindingContext>
-        <holsted:HolstedParser x:Name="viewModel"/>
-    </ContentPage.BindingContext>
+             Title="Holsted Metrics"
+             Loaded="ContentPage_Loaded">
 
     <Grid RowDefinitions="8*,*" ColumnDefinitions="*,*" HorizontalOptions="Center" Margin="10" ColumnSpacing="10">
         <Grid RowDefinitions="*" ColumnDefinitions="*" Grid.Row="0" Grid.Column="0">
-            <dg:DataGrid ItemsSource="{Binding HolstedInfo}" Grid.Row="0" Grid.Column="0">
+            <dg:DataGrid x:Name="data_grid" Grid.Row="0" Grid.Column="0" ItemsSource="{Binding OperatorsInfo}">
                 <dg:DataGrid.NoDataView>
                     <Label Text="Nothing to see here"/>
                 </dg:DataGrid.NoDataView>
@@ -30,7 +27,7 @@
             </dg:DataGrid>
         </Grid>
         <Grid RowDefinitions="*" ColumnDefinitions="*" Grid.Row="0" Grid.Column="1">
-            <dg:DataGrid ItemsSource="{Binding HolstedInfo}" Grid.Row="0" Grid.Column="0">
+            <dg:DataGrid Grid.Row="0" Grid.Column="0" ItemsSource="{Binding OperandsInfo}">
                 <dg:DataGrid.NoDataView>
                     <Label Text="Nothing to see here"/>
                 </dg:DataGrid.NoDataView>
