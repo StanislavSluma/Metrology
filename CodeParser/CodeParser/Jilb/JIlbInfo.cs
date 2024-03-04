@@ -3,15 +3,13 @@ namespace CodeParser.Jilb
 {
     public class JIlbInfo
     {
-        public JIlbInfo(int CL, int cl, int CLI)
+        public JIlbInfo(string key, double value)
         {
-            this.CL = CL;
-            this.CLI = CLI;
-            this.cl = cl;
+            Key = key;
+            Value = value;
         }
 
-        public int CL { get { return CL; } set { CL = value; } }
-        public int CLI { get { return CLI; } set { CLI = value; } }
-        public int cl { get { return cl; } set { cl = value; } }
+        public string Key { get; set; }
+        public double Value { get; set; }
     }
 }

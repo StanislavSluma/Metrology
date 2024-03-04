@@ -7,55 +7,63 @@
              Title="Holsted Metrics"
              Loaded="ContentPage_Loaded">
 
-    <Grid RowDefinitions="8*,*" ColumnDefinitions="*,*" HorizontalOptions="Center" Margin="10" ColumnSpacing="10">
-        <Grid RowDefinitions="*" ColumnDefinitions="*" Grid.Row="0" Grid.Column="0">
-            <dg:DataGrid x:Name="data_grid" Grid.Row="0" Grid.Column="0" ItemsSource="{Binding OperatorsInfo}">
-                <dg:DataGrid.NoDataView>
-                    <Label Text="Nothing to see here"/>
-                </dg:DataGrid.NoDataView>
-                <dg:DataGrid.Columns>
-                    <dg:DataGridColumn Title="i" PropertyName="Id" SortingEnabled="False"/>
-                    <dg:DataGridColumn Title="Оператор" PropertyName="Name"/>
-                    <dg:DataGridColumn Title="Число вхождений" PropertyName="Amount" Width="0.5*"/>
-                </dg:DataGrid.Columns>
-                <dg:DataGrid.RowsBackgroundColorPalette>
-                    <dg:PaletteCollection>
-                        <Color>#F0FFFF</Color>
+    <Grid RowDefinitions="*" ColumnDefinitions="*">
+        <Grid Grid.Row="0" Grid.Column="0" RowDefinitions="8*,*" ColumnDefinitions="*,*" HorizontalOptions="Center" Margin="10" ColumnSpacing="10">
+            <Grid RowDefinitions="*" ColumnDefinitions="*" Grid.Row="0" Grid.Column="0">
+                <dg:DataGrid x:Name="data_grid" Grid.Row="0" Grid.Column="0" ItemsSource="{Binding OperatorsInfo}">
+                    <dg:DataGrid.NoDataView>
+                        <Label Text="Nothing to see here"/>
+                    </dg:DataGrid.NoDataView>
+                    <dg:DataGrid.Columns>
+                        <dg:DataGridColumn Title="i" PropertyName="Id" SortingEnabled="False"/>
+                        <dg:DataGridColumn Title="Оператор" PropertyName="Name"/>
+                        <dg:DataGridColumn Title="Число вхождений" PropertyName="Amount" Width="0.5*"/>
+                    </dg:DataGrid.Columns>
+                    <dg:DataGrid.RowsBackgroundColorPalette>
+                        <dg:PaletteCollection>
+                            <Color>#FFFFFF</Color>
+                            <Color>#FFFFFF</Color>
+                        </dg:PaletteCollection>
+                    </dg:DataGrid.RowsBackgroundColorPalette>
+                    <dg:DataGrid.BackgroundColor>
                         <Color>#FFFFFF</Color>
-                    </dg:PaletteCollection>
-                </dg:DataGrid.RowsBackgroundColorPalette>
-            </dg:DataGrid>
-        </Grid>
-        <Grid RowDefinitions="*" ColumnDefinitions="*" Grid.Row="0" Grid.Column="1">
-            <dg:DataGrid Grid.Row="0" Grid.Column="0" ItemsSource="{Binding OperandsInfo}">
-                <dg:DataGrid.NoDataView>
-                    <Label Text="Nothing to see here"/>
-                </dg:DataGrid.NoDataView>
-                <dg:DataGrid.Columns>
-                    <dg:DataGridColumn Title="j" PropertyName="Id" SortingEnabled="False"/>
-                    <dg:DataGridColumn Title="Операнд" PropertyName="Name"/>
-                    <dg:DataGridColumn Title="Число вхождений" PropertyName="Amount" Width="0.5*"/>
-                </dg:DataGrid.Columns>
-                <dg:DataGrid.RowsBackgroundColorPalette>
-                    <dg:PaletteCollection>
-                        <Color>#F0FFFF</Color>
+                    </dg:DataGrid.BackgroundColor>
+                </dg:DataGrid>
+            </Grid>
+            <Grid RowDefinitions="*" ColumnDefinitions="*" Grid.Row="0" Grid.Column="1">
+                <dg:DataGrid Grid.Row="0" Grid.Column="0" ItemsSource="{Binding OperandsInfo}">
+                    <dg:DataGrid.NoDataView>
+                        <Label Text="Nothing to see here"/>
+                    </dg:DataGrid.NoDataView>
+                    <dg:DataGrid.Columns>
+                        <dg:DataGridColumn Title="j" PropertyName="Id" SortingEnabled="False"/>
+                        <dg:DataGridColumn Title="Операнд" PropertyName="Name"/>
+                        <dg:DataGridColumn Title="Число вхождений" PropertyName="Amount" Width="0.5*"/>
+                    </dg:DataGrid.Columns>
+                    <dg:DataGrid.RowsBackgroundColorPalette>
+                        <dg:PaletteCollection>
+                            <Color>#FFFFFF</Color>
+                            <Color>#FFFFFF</Color>
+                        </dg:PaletteCollection>
+                    </dg:DataGrid.RowsBackgroundColorPalette>
+                    <dg:DataGrid.BackgroundColor>
                         <Color>#FFFFFF</Color>
-                    </dg:PaletteCollection>
-                </dg:DataGrid.RowsBackgroundColorPalette>
-            </dg:DataGrid>
-        </Grid>
-        <Frame 
+                    </dg:DataGrid.BackgroundColor>
+                </dg:DataGrid>
+            </Grid>
+            <Frame 
             Grid.Row="1" 
             Grid.Column="0" 
-            Grid.ColumnSpan="2" 
-            BackgroundColor="Azure" 
+            Grid.ColumnSpan="2"
+            BackgroundColor="#FFFFFF" 
             CornerRadius="5" 
             VerticalOptions="Center">
-            <HorizontalStackLayout Spacing="100">
-                <Label x:Name="dictionary_label" Text="Словарь программы: " FontSize="14"/>
-                <Label x:Name="length_label" Text="Длина программы: " FontSize="14"/>
-                <Label x:Name="volume_label" Text="Объем программы: " FontSize="14"/>
-            </HorizontalStackLayout>
-        </Frame>
+                <HorizontalStackLayout Spacing="100">
+                    <Label x:Name="dictionary_label" Text="Словарь программы: " FontSize="14" TextColor="Black"/>
+                    <Label x:Name="length_label" Text="Длина программы: " FontSize="14"/>
+                    <Label x:Name="volume_label" Text="Объем программы: " FontSize="14"/>
+                </HorizontalStackLayout>
+            </Frame>
+        </Grid>
     </Grid>
 </ContentPage>

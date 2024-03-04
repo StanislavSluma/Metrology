@@ -4,17 +4,16 @@
              Title="Введите код"
              x:Class="CodeParser.MainPage">
 
-    <ScrollView>
-        <Frame BackgroundColor="#283655" CornerRadius="5" Margin="10">
-            <Grid RowDefinitions="8*,*" ColumnDefinitions="*" RowSpacing="10">
+    <Grid RowDefinitions="*" ColumnDefinitions="*">
+        <Frame Grid.Column="0" Grid.Row="0" BackgroundColor="DarkOrange" CornerRadius="5" Margin="10">
+            <Grid RowDefinitions="8*,*" ColumnDefinitions="*" RowSpacing="10" Margin="10">
                 <Editor x:Name="editor" 
                         FontFamily="consolas" 
                         FontSize="16" 
                         Grid.Row="0" 
                         Grid.Column="0" 
-                        HeightRequest="600" 
                         Placeholder="Вставьте или напишите ваш код здесь"
-                        BackgroundColor="#D0E1F9"/>
+                        BackgroundColor="White"/>
                 <Button 
                     Text="Парсить" 
                     Grid.Row="1" 
@@ -23,7 +22,9 @@
                     VerticalOptions="Center" 
                     WidthRequest="200" 
                     HeightRequest="50" 
-                    BackgroundColor="#D0E1F9"
+                    BackgroundColor="Orange"
+                    BorderColor="Black"
+                    BorderWidth="1"
                     TextColor="Black"
                     FontAttributes="Bold"
                     FontSize="18"
@@ -36,9 +37,9 @@
                     HorizontalOptions="Start" 
                     VerticalOptions="Center"
                     MinimumWidthRequest="200"
-                    BackgroundColor="#D0E1F9"/>
+                    BackgroundColor="White"/>
             </Grid>
         </Frame>
-    </ScrollView>
+    </Grid>
 
 </ContentPage>

@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Metrology\CodeParser\CodeParser\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-29T12:37:45.890</Modified>
+      <Modified>2024-03-04T10:52:22.853</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-29T12:33:30.774</Modified>
+      <Modified>2024-03-04T10:35:44.416</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CodeParser.runtimeconfig.json">
       <PackagePath>CodeParser.runtimeconfig.json</PackagePath>
-      <Modified>2024-02-28T22:34:07.305</Modified>
+      <Modified>2024-02-29T14:23:19.692</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CodeParser.dll">
       <PackagePath>CodeParser.dll</PackagePath>
-      <Modified>2024-02-29T12:37:45.182</Modified>
+      <Modified>2024-03-04T10:52:21.830</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CodeParser.exe</PackagePath>
-      <Modified>2024-02-29T12:37:45.323</Modified>
+      <Modified>2024-03-04T10:52:22.030</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -55,23 +55,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-02-28T22:34:04.786</Modified>
+      <Modified>2024-02-29T14:23:16.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-02-28T22:34:04.809</Modified>
+      <Modified>2024-02-29T14:23:16.149</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-02-28T22:34:04.840</Modified>
+      <Modified>2024-02-29T14:23:16.182</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-02-28T22:34:04.882</Modified>
+      <Modified>2024-02-29T14:23:16.227</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.046</Modified>
+      <Modified>2024-02-29T14:23:16.406</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\consolas.ttf">
       <PackagePath>consolas.ttf</PackagePath>
@@ -87,211 +87,211 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-02-28T22:34:05.152</Modified>
+      <Modified>2024-02-29T14:23:16.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.899</Modified>
+      <Modified>2024-02-29T14:23:17.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.932</Modified>
+      <Modified>2024-02-29T14:23:17.137</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.963</Modified>
+      <Modified>2024-02-29T14:23:17.166</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-02-28T22:34:06.012</Modified>
+      <Modified>2024-02-29T14:23:17.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-02-28T22:34:06.202</Modified>
+      <Modified>2024-02-29T14:23:17.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.410</Modified>
+      <Modified>2024-02-29T14:23:16.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.421</Modified>
+      <Modified>2024-02-29T14:23:16.664</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.458</Modified>
+      <Modified>2024-02-29T14:23:16.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.430</Modified>
+      <Modified>2024-02-29T14:23:16.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.439</Modified>
+      <Modified>2024-02-29T14:23:16.679</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.284</Modified>
+      <Modified>2024-02-29T14:23:16.605</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.294</Modified>
+      <Modified>2024-02-29T14:23:16.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.394</Modified>
+      <Modified>2024-02-29T14:23:16.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.304</Modified>
+      <Modified>2024-02-29T14:23:16.621</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.318</Modified>
+      <Modified>2024-02-29T14:23:16.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.176</Modified>
+      <Modified>2024-02-29T14:23:16.507</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.186</Modified>
+      <Modified>2024-02-29T14:23:16.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.200</Modified>
+      <Modified>2024-02-29T14:23:16.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.211</Modified>
+      <Modified>2024-02-29T14:23:16.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.223</Modified>
+      <Modified>2024-02-29T14:23:16.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.231</Modified>
+      <Modified>2024-02-29T14:23:16.555</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.238</Modified>
+      <Modified>2024-02-29T14:23:16.564</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.273</Modified>
+      <Modified>2024-02-29T14:23:16.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.246</Modified>
+      <Modified>2024-02-29T14:23:16.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.254</Modified>
+      <Modified>2024-02-29T14:23:16.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.580</Modified>
+      <Modified>2024-02-29T14:23:16.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.594</Modified>
+      <Modified>2024-02-29T14:23:16.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.610</Modified>
+      <Modified>2024-02-29T14:23:16.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.633</Modified>
+      <Modified>2024-02-29T14:23:16.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.681</Modified>
+      <Modified>2024-02-29T14:23:16.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.522</Modified>
+      <Modified>2024-02-29T14:23:16.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.530</Modified>
+      <Modified>2024-02-29T14:23:16.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.539</Modified>
+      <Modified>2024-02-29T14:23:16.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.549</Modified>
+      <Modified>2024-02-29T14:23:16.779</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.569</Modified>
+      <Modified>2024-02-29T14:23:16.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.467</Modified>
+      <Modified>2024-02-29T14:23:16.703</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.475</Modified>
+      <Modified>2024-02-29T14:23:16.711</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.484</Modified>
+      <Modified>2024-02-29T14:23:16.719</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.496</Modified>
+      <Modified>2024-02-29T14:23:16.727</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.512</Modified>
+      <Modified>2024-02-29T14:23:16.742</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.698</Modified>
+      <Modified>2024-02-29T14:23:16.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.718</Modified>
+      <Modified>2024-02-29T14:23:16.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.741</Modified>
+      <Modified>2024-02-29T14:23:16.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.775</Modified>
+      <Modified>2024-02-29T14:23:16.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.876</Modified>
+      <Modified>2024-02-29T14:23:17.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.125</Modified>
+      <Modified>2024-02-29T14:23:16.495</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.142</Modified>
+      <Modified>2024-02-29T14:23:16.508</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.160</Modified>
+      <Modified>2024-02-29T14:23:16.525</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.191</Modified>
+      <Modified>2024-02-29T14:23:16.553</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-02-28T22:34:05.302</Modified>
+      <Modified>2024-02-29T14:23:16.650</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Metrology\CodeParser\CodeParser\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CodeParser.deps.json">
       <PackagePath>CodeParser.deps.json</PackagePath>
-      <Modified>2024-02-28T22:34:07.273</Modified>
+      <Modified>2024-02-29T14:23:19.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Егор\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

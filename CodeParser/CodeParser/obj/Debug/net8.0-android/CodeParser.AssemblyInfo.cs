@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeParser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ed36e0db763ac84241b25fd40245ab714590d75d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+cb73c26f0630b905fdbdbc5a91376a2104df7b7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeParser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeParser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

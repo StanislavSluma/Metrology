@@ -1,4 +1,6 @@
 using CodeParser.Jilb;
+using System.Collections.ObjectModel;
+using System.Diagnostics;
 
 namespace CodeParser.Pages;
 
@@ -6,7 +8,8 @@ namespace CodeParser.Pages;
 public partial class JilbMetrics : ContentPage
 {
 	JilbParser parser;
-	public JilbMetrics()
+    public ObservableCollection<JIlbInfo> JIlbInfos { get; set; } = new();
+    public JilbMetrics()
 	{
 		BindingContext = this;
 		InitializeComponent();
@@ -26,6 +29,12 @@ public partial class JilbMetrics : ContentPage
 
     private void ContentPage_Loaded(object sender, EventArgs e)
     {
-		parser.ParseCode(Text);
+		var data = parser.ParseCode(Text);
+		foreach(var item in data)
+		{
+			JIlbInfos.Add(new JIlbInfo(item.Key, item.Value));
+			Trace.WriteLine(data[item.Key]);
+		}
+		data_grid.ItemsSource = data;
     }
 }

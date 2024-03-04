@@ -63,5 +63,11 @@ public partial class HolstedMetrics : ContentPage
         }
         OperatorsInfo.Add(new HolstedInfo(index1,"", N1));
         OperandsInfo.Add(new HolstedInfo(index2, "", N2));
+        var prog_dict = index1 + index2;
+        var prog_len = N1 + N2;
+        var prog_volume = prog_len * Math.Log2(prog_dict);
+        dictionary_label.Text += prog_dict;
+        length_label.Text += prog_len;
+        volume_label.Text += prog_volume;
     }
 }
