@@ -1,1 +1,1 @@
-C:\sem_4\Metrology\CodeParser\CodeParser\CodeParser.csproj;x64
+C:\Metrology\CodeParser\CodeParser\CodeParser.csproj;x64
