@@ -1,4 +1,5 @@
 ﻿using CodeParser.Pages;
+using System.Diagnostics;
 
 namespace CodeParser
 {
@@ -19,11 +20,16 @@ namespace CodeParser
         {
             if (editor.Text != string.Empty && metrics_picker.SelectedIndex != -1)
             {
-                IDictionary<string, object> parametrs = new Dictionary<string, object>()
+                string encodedText = System.Web.HttpUtility.UrlEncode(editor.Text);
+                var navigationParameter = new ShellNavigationQueryParameters
+                {
+                    { "Text", encodedText }
+                };
+/*                IDictionary<string, object> parametrs = new Dictionary<string, object>()
             {
                 {"Text", editor.Text}
-            };
-                await Shell.Current.GoToAsync(metricNames[metrics_picker.SelectedIndex + 1], parametrs);
+            };*/
+                await Shell.Current.GoToAsync(metricNames[metrics_picker.SelectedIndex + 1], navigationParameter);
             }
         }
     }
