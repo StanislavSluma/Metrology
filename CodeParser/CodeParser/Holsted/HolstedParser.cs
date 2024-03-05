@@ -23,20 +23,23 @@ namespace CodeParser.Holsted
 
         public void ParseBasicOperators(string input, Dictionary<string, int> map)
         {
-            Regex regex = new Regex("([+\\-*%/><&|^=!]*=)|(\\+{1,2}|-{1,2}|\\*|/|%|>{1,3}|<{1,2}|\\|\\||&&|!|\\||\\^|&|~|\\.|;)");
+            Regex regex = new Regex("(\\?(?=(.*:)))|([+\\-*%/><&|^=!]*=)|(\\+{1,2}|-{1,2}|\\*|/|%|>{1,3}|<{1,2}|\\|\\||&&|!|\\||\\^|&|~|\\.|;)");
             MatchCollection matches = regex.Matches(input);
 
             if (matches.Count > 0)
             {
                 foreach (Match match in matches)
                 {
-                    if (map.ContainsKey(match.Value))
+                    string val = match.Value;
+                    if (val == "?")
+                        val += ":";
+                    if (map.ContainsKey(val))
                     {
-                        map[match.Value] += 1;
+                        map[val] += 1;
                     }
                     else
                     {
-                        map.Add(match.Value, 1);
+                        map.Add(val, 1);
                     }
 
                 }
