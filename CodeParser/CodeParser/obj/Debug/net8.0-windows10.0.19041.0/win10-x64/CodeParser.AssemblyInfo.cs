@@ -11,10 +11,14 @@
 using System;
 using System.Reflection;
 
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PackageName", "com.companyname.codeparser")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PublisherName", "User Name")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Name", "CodeParser")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Version", "1.0.0.1")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeParser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c205b5cb71de9ceaa1688156c0026e3820b8ab64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a9a1a2338fb3f57dde3e463d8d3923fdd435281e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeParser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeParser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

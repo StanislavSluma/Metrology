@@ -7,24 +7,40 @@
       "RelativeMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|solutionrelative:codeparser\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|c:\\metrology\\codeparser\\codeparser\\pages\\holstedmetrics.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|solutionrelative:codeparser\\pages\\holstedmetrics.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|c:\\metrology\\codeparser\\codeparser\\pages\\holstedmetrics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|solutionrelative:codeparser\\pages\\holstedmetrics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|c:\\metrology\\codeparser\\codeparser\\holsted\\holstedparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|solutionrelative:codeparser\\holsted\\holstedparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|c:\\metrology\\codeparser\\codeparser\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|solutionrelative:codeparser\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|c:\\metrology\\codeparser\\codeparser\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|solutionrelative:codeparser\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|c:\\metrology\\codeparser\\codeparser\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|solutionrelative:codeparser\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|c:\\metrology\\codeparser\\codeparser\\holsted\\holstedinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|solutionrelative:codeparser\\holsted\\holstedinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|c:\\metrology\\codeparser\\codeparser\\holsted\\holstedparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|solutionrelative:codeparser\\holsted\\holstedparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|c:\\metrology\\codeparser\\codeparser\\pages\\holstedmetrics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|solutionrelative:codeparser\\pages\\holstedmetrics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|c:\\metrology\\codeparser\\codeparser\\pages\\jilbmetrics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|solutionrelative:codeparser\\pages\\jilbmetrics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|c:\\metrology\\codeparser\\codeparser\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|solutionrelative:codeparser\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|c:\\metrology\\codeparser\\codeparser\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|solutionrelative:codeparser\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|c:\\metrology\\codeparser\\codeparser\\pages\\holstedmetrics.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14AE2FE9-DDF3-4757-BD21-0ECC69475DB4}|CodeParser\\CodeParser.csproj|solutionrelative:codeparser\\pages\\holstedmetrics.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +62,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "HolstedInfo.cs",
+              "DocumentMoniker": "C:\\Metrology\\CodeParser\\CodeParser\\Holsted\\HolstedInfo.cs",
+              "RelativeDocumentMoniker": "CodeParser\\Holsted\\HolstedInfo.cs",
+              "ToolTip": "C:\\Metrology\\CodeParser\\CodeParser\\Holsted\\HolstedInfo.cs",
+              "RelativeToolTip": "CodeParser\\Holsted\\HolstedInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T18:04:10.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JilbMetrics.xaml",
+              "DocumentMoniker": "C:\\Metrology\\CodeParser\\CodeParser\\Pages\\JilbMetrics.xaml",
+              "RelativeDocumentMoniker": "CodeParser\\Pages\\JilbMetrics.xaml",
+              "ToolTip": "C:\\Metrology\\CodeParser\\CodeParser\\Pages\\JilbMetrics.xaml",
+              "RelativeToolTip": "CodeParser\\Pages\\JilbMetrics.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-05T18:04:03.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Metrology\\CodeParser\\CodeParser\\App.xaml",
+              "RelativeDocumentMoniker": "CodeParser\\App.xaml",
+              "ToolTip": "C:\\Metrology\\CodeParser\\CodeParser\\App.xaml",
+              "RelativeToolTip": "CodeParser\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-05T18:04:02.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Metrology\\CodeParser\\CodeParser\\AppShell.xaml",
+              "RelativeDocumentMoniker": "CodeParser\\AppShell.xaml",
+              "ToolTip": "C:\\Metrology\\CodeParser\\CodeParser\\AppShell.xaml",
+              "RelativeToolTip": "CodeParser\\AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-05T18:04:00.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Metrology\\CodeParser\\CodeParser\\MauiProgram.cs",
               "RelativeDocumentMoniker": "CodeParser\\MauiProgram.cs",
@@ -54,21 +118,19 @@
               "RelativeToolTip": "CodeParser\\MauiProgram.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T17:31:13.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T17:31:13.093Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Metrology\\CodeParser\\CodeParser\\MainPage.xaml",
               "RelativeDocumentMoniker": "CodeParser\\MainPage.xaml",
               "ToolTip": "C:\\Metrology\\CodeParser\\CodeParser\\MainPage.xaml",
               "RelativeToolTip": "CodeParser\\MainPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-05T17:31:12.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T17:31:12.257Z"
             },
             {
               "$type": "Document",
@@ -78,27 +140,26 @@
               "RelativeDocumentMoniker": "CodeParser\\MainPage.xaml.cs",
               "ToolTip": "C:\\Metrology\\CodeParser\\CodeParser\\MainPage.xaml.cs",
               "RelativeToolTip": "CodeParser\\MainPage.xaml.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBkAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-05T17:26:03.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HolstedParser.cs",
               "DocumentMoniker": "C:\\Metrology\\CodeParser\\CodeParser\\Holsted\\HolstedParser.cs",
               "RelativeDocumentMoniker": "CodeParser\\Holsted\\HolstedParser.cs",
               "ToolTip": "C:\\Metrology\\CodeParser\\CodeParser\\Holsted\\HolstedParser.cs",
               "RelativeToolTip": "CodeParser\\Holsted\\HolstedParser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T16:59:33.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-29T16:59:33.722Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "HolstedMetrics.xaml.cs",
               "DocumentMoniker": "C:\\Metrology\\CodeParser\\CodeParser\\Pages\\HolstedMetrics.xaml.cs",
               "RelativeDocumentMoniker": "CodeParser\\Pages\\HolstedMetrics.xaml.cs",
@@ -106,21 +167,19 @@
               "RelativeToolTip": "CodeParser\\Pages\\HolstedMetrics.xaml.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAgwCoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-29T16:58:29.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-29T16:58:29.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "HolstedMetrics.xaml",
               "DocumentMoniker": "C:\\Metrology\\CodeParser\\CodeParser\\Pages\\HolstedMetrics.xaml",
               "RelativeDocumentMoniker": "CodeParser\\Pages\\HolstedMetrics.xaml",
               "ToolTip": "C:\\Metrology\\CodeParser\\CodeParser\\Pages\\HolstedMetrics.xaml",
               "RelativeToolTip": "CodeParser\\Pages\\HolstedMetrics.xaml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAEAAAAAoAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAEAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-29T16:56:22.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-29T16:56:22.994Z"
             }
           ]
         }
