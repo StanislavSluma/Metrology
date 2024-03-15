@@ -1,5 +1,6 @@
 using CodeParser.Holsted;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 
 namespace CodeParser.Pages;
 
@@ -38,7 +39,8 @@ public partial class HolstedMetrics : ContentPage
 
     private void ContentPage_Loaded(object sender, EventArgs e)
     {
-        var data = holstedParser.ParseCode(Text);
+        Trace.WriteLine(Text);
+        var data = holstedParser.ParseCode(text);
         var data1 = data.Item1;
         var data2 = data.Item2;
         var index1 = 0;

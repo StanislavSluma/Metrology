@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\sem_4\Metrology\CodeParser\CodeParser\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-03-05T17:59:45.396</Modified>
+      <Modified>2024-03-15T19:48:54.966</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\sem_4\Metrology\CodeParser\CodeParser\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-03-05T17:59:45.334</Modified>
+      <Modified>2024-03-15T19:48:54.867</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\sem_4\Metrology\CodeParser\CodeParser\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CodeParser.runtimeconfig.json">
       <PackagePath>CodeParser.runtimeconfig.json</PackagePath>
-      <Modified>2024-03-05T16:41:47.087</Modified>
+      <Modified>2024-03-15T18:19:35.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\sem_4\Metrology\CodeParser\CodeParser\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CodeParser.dll">
       <PackagePath>CodeParser.dll</PackagePath>
-      <Modified>2024-03-05T17:59:45.145</Modified>
+      <Modified>2024-03-15T19:48:54.660</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\sem_4\Metrology\CodeParser\CodeParser\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CodeParser.exe</PackagePath>
-      <Modified>2024-03-05T17:59:45.161</Modified>
+      <Modified>2024-03-15T19:48:54.666</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\sem_4\Metrology\CodeParser\CodeParser\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -291,7 +291,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\sem_4\Metrology\CodeParser\CodeParser\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CodeParser.deps.json">
       <PackagePath>CodeParser.deps.json</PackagePath>
-      <Modified>2024-03-05T16:41:47.009</Modified>
+      <Modified>2024-03-15T18:19:35.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Sluma\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
