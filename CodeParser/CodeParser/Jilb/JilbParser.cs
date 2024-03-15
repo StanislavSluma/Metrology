@@ -31,7 +31,7 @@ namespace CodeParser.Jilb
 
         private int CountMaxDepth(int curDepth, int maxDepth, int curLine, string[] code)
         {
-            //should be added switch, while, for?
+            //should be added switch
             if (curLine >= code.Length) return maxDepth;
             string codeLine = code[curLine];
             if(codeLine.Contains("for") || codeLine.Contains("while") || codeLine.Contains("if") || codeLine.Contains("else if")) 

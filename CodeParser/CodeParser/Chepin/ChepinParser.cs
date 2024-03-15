@@ -1,5 +1,4 @@
 ﻿using CodeParser.Holsted;
-using System.Diagnostics;
 using System.Text.RegularExpressions;
 
 namespace CodeParser.Chepin
@@ -28,7 +27,10 @@ namespace CodeParser.Chepin
         {
             var dict = new Dictionary<string, int>();
             operandParser.ParseOperands(code, dict);
-            ParseIOOperands(code);
+            foreach(var item in  dict) 
+            {
+                Console.WriteLine(item.Key, item.Value);
+            }
             return dict;
         }
 
