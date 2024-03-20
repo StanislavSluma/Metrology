@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using Microsoft.Maui.ApplicationModel;
+using System.Text.RegularExpressions;
 
 
 namespace CodeParser.Holsted
@@ -12,15 +13,37 @@ namespace CodeParser.Holsted
             Dictionary<string, int> opnd_map = new();
             int colon = 0;
             //"1" +1 "2" +2 "3" +3 "4"
+            string substr = null!;
             while (colon != -1)
             {
                 colon = code.IndexOf('"');
+                substr = null!;
                 if(colon != -1 )
                 {
                     int colon2 = code.IndexOf('"', colon + 1);
+                    substr = code.Substring(colon, colon2 - colon + 1);
                     code = code.Remove(colon, colon2 - colon + 1);
                 }
+                if (substr != null)
+                {
+                    if (opnd_map.ContainsKey(substr))
+                    {
+                        opnd_map[substr] += 1;
+                    }
+                    else
+                    {
+                        opnd_map.Add(substr, 1);
+                    }
+                }
             }
+            int tipa = 0;
+            for (int i = 0; i < code.Length; i++)
+            {
+                if (code[i] == '{')
+                    tipa++;
+            }
+            if (tipa != 0)
+                op_map.Add("{}", tipa);
             ParseOperators(code, op_map);
             ParseOperands(code, opnd_map);
             return (op_map, opnd_map);
@@ -34,7 +57,7 @@ namespace CodeParser.Holsted
 
         public void ParseBasicOperators(string input, Dictionary<string, int> map)
         {
-            Regex regex = new Regex(@"(\?(?=(.*:)))|([+\-*%/><&|^=!]*=)|(\+{1,2}|-{1,2}|\*|/|%|>{1,3}|<{1,2}|\|\||&&|!|\||\^|&|~|\.|;)");
+            Regex regex = new Regex(@"(\?(?=(.*:)))|([+\-*%/><&|^=!]*=)|(\+{1,2}|-{1,2}|\*|/|%|>{1,3}|<{1,2}|\|\||&&|!|\||\^|&|~|;)");
             MatchCollection matches = regex.Matches(input);
 
             if (matches.Count > 0)
@@ -59,7 +82,7 @@ namespace CodeParser.Holsted
 
         public void ParseDifficultOperators(string allinput, Dictionary<string, int> map)
         {
-            Regex regex = new Regex(@"([\w\d]* ?\(.*\))|(do|case|default|break|continue)");
+            Regex regex = new Regex(@"([\w\d\.]* ?\(.*\))|(do|case|default|break|continue)");
             var splitstr = allinput.Split('\r');
             foreach (var input in splitstr)
             {
@@ -105,7 +128,7 @@ namespace CodeParser.Holsted
 
         public void ParseOperands(string input, Dictionary<string, int> map)
         {
-            Regex regex = new Regex(@"(((?<=(=|\+|-|\*|/|%|>{1,3}|<{1,2}|\|\||&&|!|\||\^|&|~|:|\(|,)\s*)[\d\w]+)|([\d\w]+(?=\s*(([+\-*%/><&|^=!]*=)|>|<|\+\+|--|\)))))");
+            Regex regex = new Regex(@"(((?<=(=|\+|-|\*|/|%|>{1,3}|<{1,2}|\|\||&&|!|\||\^|&|~|:|\(|,)\s*)[\d\w\.]+)|([\d\w\.]+(?=\s*(([+\-*%/><&|^=!]*=)|>|<|\+\+|--|\)))))");
             MatchCollection matches = regex.Matches(input);
 
             if (matches.Count > 0)
